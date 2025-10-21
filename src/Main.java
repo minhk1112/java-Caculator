@@ -20,5 +20,10 @@ public class Main {
         calc_div.divide();
         calc_div.displayResult("/");
 
+        ScientificCalculator calc_sci = new ScientificCalculator();
+        calc_sci.setNumbers(5);
+        calc_sci.square();
+        calc_sci.displayResult("^");
+
     }
 }
